@@ -1,0 +1,25 @@
+{
+  "name": "myprofileweb",
+  "version": "1.0.0",
+  "description": "Identity by HTML5 UP\r html5up.net | @ajlkn\r Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)",
+  "main": "Index.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "hbs": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinasun518/MyProfileWeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tinasun518/MyProfileWeb/issues"
+  },
+  "homepage": "https://github.com/tinasun518/MyProfileWeb#readme"
+}
