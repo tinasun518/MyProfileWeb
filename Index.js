@@ -5,7 +5,9 @@ var app = express();
 
 const port = process.env.PORT || 3000;
 
-app.use(express.static(__dirname));
+app.use(express.static(__dirname + '/public'));
+app.set('view engine', 'hbs');
+
 app.get('/', (req, res) => {
 	//res.send('<h1>Hello Express!</h1>');
 	res.render('index.hbs', {
