@@ -2,7 +2,7 @@
   "name": "myprofileweb",
   "version": "1.0.0",
   "description": "Identity by HTML5 UP\r html5up.net | @ajlkn\r Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)",
-  "main": "Index.js",
+  "main": "index.js",
   "dependencies": {
     "express": "^4.15.3",
     "hbs": "^4.0.1"
